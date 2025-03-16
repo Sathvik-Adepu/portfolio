@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of [Your Name] - Computer Science Student and Aspiring Developer">
+    <title>Adepu Sathvik | Portfolio</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="script.js"></script>
+    <style>
+       
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            background-image: url('hero-image.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            text-align: center;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+        }
+
+        .section {
+            padding: 40px 20px;
+        }
+
+        .about, .projects {
+            background-color: white;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        .about img {
+            width: 150px;
+            border-radius: 50%;
+        }
+
+        .projects .project {
+            display: inline-block;
+            width: 30%;
+            margin-right: 3%;
+            margin-bottom: 20px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Adepu Sathvik</h1>
+        <p>Computer Science Student | Aspiring Developer</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to My Portfolio</h1>
+    </section>
+
+    <section id="about" class="section about">
+        <div style="text-align: center;">
+            <img src="sunnylinkedinprofile1.jpg" alt="Profile Picture">
+        </div>
+        <div>
+            <h2>About Me</h2>
+            <p>Hi! I'm Sathvik, a Computer Science student with a passion for coding and problem-solving. I have a strong foundation in algorithms, data structures, and software development. I am constantly seeking to expand my knowledge through hands-on projects and learning new technologies.</p>
+            <p>With a passion for technology and innovation, Iam very keen to expand my knowledge and skills in the field. I enjoy exploring new programming languages. Eager to apply my knowledge in a real-world setting, actively seeking an internship opportunity with an IT company to enhance my skills and gain practical experience.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="section projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>Project 1: [Project Name]</h3>
+            <img src="project1.jpg" alt="Project 1" style="width: 100%;">
+            
+        </div>
+        <div class="project">
+            <h3>Project 2: [Project Name]</h3>
+            <img src="project2.jpg" alt="Project 2" style="width: 100%;">
+            
+        </div>
+        <div class="project">
+            <h3>Project 3: [Project Name]</h3>
+            <img src="project3.jpg" alt="Project 3" style="width: 100%;">
+            
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <p>If you'd like to collaborate, discuss projects, or have any questions, feel free to reach out to me:</p>
+        <form action="submit_form.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required><br>
+            <input type="email" name="email" placeholder="Your Email" required><br>
+            <textarea name="message" placeholder="Your Message" required></textarea><br>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Adepu Sathvik. All rights reserved.</p>
+        <p>Follow me on <a href="https://www.linkedin.com/in/adepu-sathvik-723521311/">LinkedIn</a> | <a href="#">GitHub</a></p>
+    </footer>
+
+</body>
+
+</html>
